@@ -10,7 +10,7 @@ deploy:
   provider: surge
   skip_cleanip: true
   domain: chivalrous-chain.surge.sh
-  project: /src/build/
+  project: /public/build/
 
   on:
     branch: master
